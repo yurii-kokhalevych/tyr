@@ -1,0 +1,164 @@
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+.modalDialog:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 370px;
+	position: relative;
+	margin: 1% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+	height: 600px;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.login1 input[type="text"],
+.login1 input[type="password"]
+{
+	padding: 10px;
+	float: right;
+}
+
+.login1 input[type="text"],
+.login1 input[type="password"]
+{
+	padding: 5px;
+	margin-right: 15px;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	outline: none;
+	/* border-color: black; */
+}
+
+.login1 input[type="submit"]
+{
+	clear: both;
+	border-color: black;
+	border-radius: 60px;
+	margin-right: 30px;
+	margin-left: 10px;
+	padding: 0 10px;
+}
+
+.login1 input[type="submit"]:hover, #regis:hover
+{
+	background: black;
+	color:white;
+}
+.login1 input[type="text"]:hover{border-color: blue;}
+
+#regis {
+	color:black;
+	clear: both;
+	border-color: black;
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+button{border-radius: 10px;	border: 2px solid transparent;	border-color: black;
+}
+.button{ border-radius: 5px;	border: 2px solid transparent;	border-color: black;background-color: #DCDCDC; padding-left:7px; padding-right: 7px; float: right ;
+}
+.login input[type="submit"], .login input[type="reset"]{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+ 
+select{
+	width: 50%;
+}
+
+textarea {
+	font: normal 12px Verdana, Sans-Serif;
+	color: #555555;
+	border: solid 1px #7f9db9;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-top-right-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	border-top-left-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+ textarea {
+	overflow: auto;
+}
+
+/*textarea {
+	font-family: monospace;
+	border-color: rgb(169, 169, 169);
+}
+
+textarea {
+	-webkit-appearance: textarea;
+	background-color: white;
+	-webkit-rtl-ordering: logical;
+	user-select: text;
+	flex-direction: column;
+	resize: auto;
+	cursor: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	border-width: 1px;
+	border-style: solid;
+	border-color: initial;
+	border-image: initial;
+	padding: 2px;
+} */
+.golov{
+	float: right;
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+}
+.golov:hover{
+	color: blue;
+	border: 1px solid blue;
+	padding: 10px;
+	border-radius: 5px;
+}
+

@@ -1,0 +1,40 @@
+/* table{
+	 border-collapse: collapse;
+	 width: 30%;
+	 text-align: center;
+}
+tr,td,table {
+	border: solid;
+} */
+.cont{
+display: flex;
+flex-wrap: wrap;
+padding-bottom: 60px;
+}
+h3{
+	font-size: 18px;
+	font-style: italic;
+}
+pre{
+	font-size: 14px;
+	padding-left: 20px;
+	padding: 5px; 
+}
+.div2{
+	padding: 10px;
+}
+spam{
+	padding: 5px;
+}
+.div3,.div4{
+	border: solid 3px grey;
+	height: 80%;
+}
+td.td{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: top;
+}

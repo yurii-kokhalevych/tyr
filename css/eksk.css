@@ -1,0 +1,94 @@
+/* table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    /* border-color: grey; */
+    
+} */
+.block {
+    overflow: hidden;
+}
+
+.product .product_description {
+    color: #000000;
+    font: normal 13px Arial;
+    padding: 0 15px;
+}
+.product_description {
+    font: normal 12px Arial, Verdana, Sans-Serif;
+    color: #000000;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table{
+	 border-collapse: collapse;
+}
+tr,td,table {
+	border: solid;
+}
+div.inside{
+	/* border-radius: 10px; */
+	border: solid 15px #88c647;
+}
+.golovnuy1{
+	/* border-radius: 10px; */
+	border: solid 10px green;
+	padding: 10px;
+	/*height: auto;*/
+}
+.golovnuy2{
+	/* border-radius: 10px; */
+	border: solid 10px #2bace3;
+	padding: 10px;
+}
+div.golovnuy3{
+	/* border-radius: 10px; */
+	border: solid 10px #f6a031;
+	padding: 10px;
+}
+div.golovnuy4{
+	/* border-radius: 10px; */
+	border: solid 10px green;
+	padding: 10px;
+}
+div.golovnuy5{
+	/* border-radius: 10px; */
+	border: solid 10px #2bace3;
+	padding: 10px;
+}
+div.golovnuy6{
+	/* border-radius: 10px; */
+	border: solid 10px #f6a031;
+	padding: 10px;
+}
+div.golovnuy7{
+	/* border-radius: 10px; */
+	border: solid 10px green;
+	padding: 10px;
+}
+h2.head{
+	font-family: bold;
+	font-size: 22px;
+}
+h6.head{
+	font-family: bold;
+	font-size: 18px;
+	padding-left: 40px;
+}
+main{
+	padding-bottom: 50px;
+}
+div.vartis{
+	float: left;
+	font-size: 20px;
+	color: #000066;
+	padding: 5px 15px;
+}
+
+h1{
+	/*font-size: 25px;*/
+	font-style: italic;
+}
+

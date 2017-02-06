@@ -1,0 +1,53 @@
+$(document).ready(function(){
+    $("#fname").click(function(){
+        $("#w").slideDown("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fname").click(function(){
+        $("#w3").slideDown("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fname").click(function(){
+        $("#w1").slideUp("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fname1").click(function(){
+        $("#w1").slideDown("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fname1").click(function(){
+        $("#w").slideUp("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fname1").click(function(){
+        $("#w3").slideUp("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fname2").click(function(){
+        $("#w").slideDown("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#fname2").click(function(){
+        $("#w2").slideUp("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fname3").click(function(){
+        $("#w2").slideDown("slow");
+    });
+});
+$(document).ready(function(){
+    $("#fname3").click(function(){
+        $("#w").slideUp("slow");
+    });
+});
+
+

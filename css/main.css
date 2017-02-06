@@ -1,0 +1,124 @@
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #096e98;*/
+    width: 100%;
+    background: repeating-linear-gradient(
+		to right,
+		#606dbc,
+		#606dbc 10px,
+		#465298 10px,
+		#465298 20px
+		);
+    animation-name: torval;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes torval{
+
+ 	0%   {background: repeating-linear-gradient(
+		to right,
+		#606dbc,
+		#606dbc 10px,
+		#465298 10px,
+		#465298 20px
+		);}
+    25%  {background: repeating-linear-gradient(
+		to left,
+		#606dbc,
+		#606dbc 15px,
+		#465298 15px,
+		#465298 25px
+		);}
+    50%  {background: repeating-linear-gradient(
+		to right,
+		#606dbc,
+		#606dbc 30px,
+		#465298 35px,
+		#465298 35px
+		);}
+    75%  {background: repeating-linear-gradient(
+		to left,
+		#606dbc,
+		#606dbc 15px,
+		#465298 15px,
+		#465298 25px
+		);}
+    100% {background: repeating-linear-gradient(
+		to right,
+		#606dbc,
+		#606dbc 10px,
+		#465298 10px,
+		#465298 20px
+		);}
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #465298; border: 0.5px groove #606dbc; border-radius: 20px; }
+
+ul.topnav li a.active {background-color: /* #4CAF50 */#483D8B;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+
+.containerMain {
+	width: auto; height: auto; margin: 10px; margin-left: 10px;
+	border: 2px solid black;
+	display: flex;
+	/* -webkit-perspective: 1400px; */
+		}
+.flex-container{
+	display: flex;
+	height: auto;
+	width: auto;
+	
+}
+
+h1{
+	text-align: center;
+	font-size: 32px;
+	padding: 10px;
+	font-family: Georgia;
+	font-style: italic;
+	line-height: 32px;
+}
+
+div.title{
+	margin: 10px;
+	padding: 5px;
+	width: auto;
+	text-indent: 25px;
+}
+
+p{
+	text-indent: 25px;
+	text-align: justify;
+}
+
+h2{
+	text-align: center;
+}
+header{
+ width: 100%;
+}
+
+body{
+	background: url(../img/fon1.jpg);
+
+}
