@@ -124,7 +124,7 @@ body {
 		} */
 		.trans p {
 			float: left; /* width: 185px; */ margin: 5px 5px 20px 5px;
-			font-size: 12px; line-height: 22px; color: #4c4c4c; 
+			font-size: 12px; line-height: 22px; color: black; 
 		}
 
 .content {
@@ -139,13 +139,50 @@ body {
     width: 100%;
     background: repeating-linear-gradient(
 		to right,
-		#606dbc,
-		#606dbc 10px,
-		#465298 10px,
-		#465298 20px
+		#003366,
+		#003366 10px,
+		#0059b3 10px,
+		#0059b3 20px
 		);
      animation-name: fot;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
+@-webkit-keyframes fot{
+
+ 	 	0%   {background: repeating-linear-gradient(
+		to right,
+		#003366,
+		#003366 10px,
+		#0059b3 10px,
+		#0059b3 20px
+		);}
+    25%  {background: repeating-linear-gradient(
+		to left,
+		#003366,
+		#003366 15px,
+		#0059b3 15px,
+		#0059b3 25px	);}
+    50%  {background: repeating-linear-gradient(
+		to right,
+		#003366,
+		#003366 30px,
+		#0059b3 35px,
+		#0059b3 35px
+		);}
+    75%  {background: repeating-linear-gradient(
+		to left,
+		#003366,
+		#003366 15px,
+		#0059b3 15px,
+		#0059b3 25px
+		);}
+    100% {background: repeating-linear-gradient(
+		to right,
+		#003366,
+		#003366 10px,
+		#0059b3 10px,
+		#0059b3 20px
+		);}
+}
