@@ -1,0 +1,70 @@
+.blogMain{
+	width: 30%;
+	margin: 5% auto;
+	padding: 10px 35px 10px 20px; 
+	background:url(../img/vidgyk.jpg);
+	border: 1px dotted #606dbc;
+	border-radius: 20px 5px 20px 5px; 
+	box-shadow: 10px 10px black;
+	color: white;
+	/* margin-bottom: 80px; */
+}
+
+#golovna{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-size: 16px;
+}
+
+#golovna:hover{
+	color: black;
+	font-size: 22px;
+	
+}
+.send{
+	border: 2px ridge black;
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	float: left;
+}
+.legend{
+	font-size: 16px;
+	font-family: bold;
+}
+
+.send:hover{
+	border: 2px ridge black;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+
+}
+#comment_form{
+	display: flex;
+}
+
+fieldset{
+	width: 100%;
+	margin: auto;
+}
+
+#comment{
+	width: 80%;
+	margin: auto;
+
+}
+
+#name{
+	width: 60%;
+	margin: auto;
+}
+#email{
+	width: 60%;
+	margin: auto;
+
+}
+.zag{
+font-size: 24px;
+}

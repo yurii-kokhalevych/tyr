@@ -1,0 +1,61 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Цікаві місця України</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/blog.css">
+	</head>
+	<body>
+		<header>
+			<ul class="topnav">
+				<li><img src="img/logo2.png" alt="logo" style="width: 80px;height: 50px;"/></li>
+				<li><a href="index.html">Головна</a></li>
+				<li><a href="ekscurs.html">Екскурсії</a></li>
+				<li><a href="contact.html">Контакти</a></li>
+				<li class="right"><a href="blog.html">Відгуки</a></li>
+			</ul>
+		</header>
+		<main>
+			<div class="blogMain">
+				<h1 class="zag">Відгуки</h1>
+				<a href="index.html" id="golovna">Головна</a><br><br>
+
+				<form onsubmit="return check_comment_form(this, check_field_comment_form);" name="comment_form" id="comment_form" action="#" method="post">
+					<fieldset>
+    					<legend class="legend">Додати відгук</legend><br>
+						Ім'я:<sub>*</sub>
+						<input type="text" name="name" id="name"><br><br>
+						E-mail:<input type="text" name="email" id="email"  placeholder="E-mail відповіді"><br><br>
+						Коментар<sub>*</sub><br>
+						<textarea name="comment" id="comment" ></textarea><br><br>
+						
+						<input type="submit" class="send" name="send" value="Додати відгук">
+					</fieldset>
+
+					<!-- 	<script type="text/javascript">
+							var check_field_comment_form = {
+								'id':{"required":"Будь ласка, введіть ID"},
+								'sub_id':{"required":"Будь ласка, введіть Parent"},
+								'name':{"required":"Будь ласка, введіть Ім'я"},
+								'email':{"email":"Будь ласка, введіть правильну email адресу"},
+								'comment':{"required":"Будь ласка, введіть comment"},
+							}
+							function check_comment_form(form_element, check_field) {
+								var rt = check(form_element, check_field);
+
+								return rt;
+							}
+						</script> -->
+					</form>
+			</div>
+
+		</main>	
+		<footer class="footer">
+			<strong></strong>
+		</footer>
+		
+	</body>
+	</html>

@@ -9,7 +9,6 @@ tr,td,table {
 .cont{
 display: flex;
 flex-wrap: wrap;
-padding-bottom: 60px;
 }
 h3{
 	font-size: 18px;
