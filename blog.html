@@ -7,6 +7,15 @@
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/blog.css">
+		<script>
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = '//https-yurii-kokhalevych-github-io-tyr.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	</head>
 	<body>
 		<header>
@@ -22,18 +31,18 @@
 			<div class="blogMain">
 				<h1 class="zag">Відгуки</h1>
 				<a href="index.html" id="golovna">Головна</a><br><br>
-
-				<form onsubmit="return check_comment_form(this, check_field_comment_form);" name="comment_form" id="comment_form" action="#" method="post">
-					<fieldset>
-    					<legend class="legend">Додати відгук</legend><br>
-						Ім'я:<sub>*</sub>
-						<input type="text" name="name" id="name"><br><br>
-						E-mail:<input type="text" name="email" id="email"  placeholder="E-mail відповіді"><br><br>
-						Коментар<sub>*</sub><br>
-						<textarea name="comment" id="comment" ></textarea><br><br>
+				<div id="disqus_thread"></div>
+				<!--<form onsubmit="return check_comment_form(this, check_field_comment_form);" name="comment_form" id="comment_form" action="#" method="post">-->
+				<!--	<fieldset>-->
+    <!--					<legend class="legend">Додати відгук</legend><br>-->
+				<!--		Ім'я:<sub>*</sub>-->
+				<!--		<input type="text" name="name" id="name"><br><br>-->
+				<!--		E-mail:<input type="text" name="email" id="email"  placeholder="E-mail відповіді"><br><br>-->
+				<!--		Коментар<sub>*</sub><br>-->
+				<!--		<textarea name="comment" id="comment" ></textarea><br><br>-->
 						
-						<input type="submit" class="send" name="send" value="Додати відгук">
-					</fieldset>
+				<!--		<input type="submit" class="send" name="send" value="Додати відгук">-->
+				<!--	</fieldset>-->
 
 					<!-- 	<script type="text/javascript">
 							var check_field_comment_form = {
@@ -49,13 +58,13 @@
 								return rt;
 							}
 						</script> -->
-					</form>
-			</div>
+			<!--		</form>-->
+			<!--</div>-->
 
 		</main>	
 		<footer class="footer">
 			<strong></strong>
 		</footer>
-		
+	<script id="dsq-count-scr" src="//https-yurii-kokhalevych-github-io-tyr.disqus.com/count.js" async></script>	
 	</body>
 	</html>

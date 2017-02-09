@@ -3,7 +3,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*background-color: #096e98;*/
+    background-color: #096e98;
     width: 100%;
     background: repeating-linear-gradient(
 		to right,
@@ -20,8 +20,8 @@ ul.topnav {
 
  	0%   {background: repeating-linear-gradient(
 		to right,
-		#606dbc,
-		#606dbc 10px,
+		#000066,
+		#000066 10px,
 		#465298 10px,
 		#465298 20px
 		);}
