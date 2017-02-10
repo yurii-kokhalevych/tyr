@@ -22,7 +22,7 @@ pre{
 .div2{
 	padding: 10px;
 }
-spam{
+span{
 	padding: 5px;
 }
 .div3,.div4{
@@ -37,3 +37,4 @@ td.td{
     font: inherit;
     vertical-align: top;
 }
+
