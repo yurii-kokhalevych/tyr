@@ -92,4 +92,39 @@ h1{
 	/*font-size: 25px;*/
 	font-style: italic;
 }
+#forma{
+	font-size: 20px;
+}
 
+#quantity1,#quantity2, #quantity3{
+	width: 9%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#name1, #name2, #name3{
+	width: 60%;
+    margin: auto;
+}
+#phone1, #phone2, #phone3{
+	width: 50%;
+    margin: auto;
+}
+
+#email1, #email2, #email3{
+	width: 50%;
+    margin: auto;
+}
+
+#duration{
+	width: 60%;
+    margin: auto;
+}
+#route{
+	width: 65%;
+    margin: auto;
+}
+#comments{
+	width: 90%;
+    margin: auto;
+}

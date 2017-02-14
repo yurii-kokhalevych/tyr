@@ -1,5 +1,5 @@
 .blogMain{
-	width: 30%;
+	width: 65%;
 	margin: 5% auto;
 	padding: 10px 35px 10px 20px; 
 	background:url(../img/vidgyk.jpg);
@@ -7,7 +7,7 @@
 	border-radius: 20px 5px 20px 5px; 
 	box-shadow: 10px 10px black;
 	color: white;
-	/* margin-bottom: 80px; */
+	 margin-bottom: 75px; 
 }
 
 #golovna{
@@ -67,4 +67,27 @@ fieldset{
 }
 .zag{
 font-size: 24px;
+}
+
+
+.tab-conversation.active>a {
+    color: white!important;
+}
+
+.nav-tab>a {
+    color: white;
+}
+.dropdown-toggle {
+   color: white!important;
+}
+.disqus-footer__link {
+    color: white;    
+}
+
+body {
+    color: white;
+}
+
+.disqus-footer__logo {
+    float: none; 
 }
