@@ -5,7 +5,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small,  strong, sub, sup,  var,
 b, u, i, 
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header,
@@ -39,7 +39,8 @@ body {
 	
 }
 #transform {
-	width: 1100px; position: relative; margin: 20px auto;
+	max-width: 1100px; /* position: relative; */
+	margin: 20px auto; 
 	padding-bottom: 60px;
 }
 .card1,  .card2, .card3, .card4, .card5,  .card6, .card7, .card8, .card9,  .card10, .card11, .card12{
@@ -113,7 +114,7 @@ body {
 	.trans .back {
 		width: auto; height: 270px; padding: 0px;
 		-webkit-transform: rotateX(180deg);
-		background: #a3a3a3 url(texture.png); 
+		background: #a3a3a3 /* url(texture.png) */; 
 	}
 .trans .back h2 {
 			/* width:110px; height:0px; */ margin: 5px auto 20px auto;
@@ -124,7 +125,7 @@ body {
 		} */
 		.trans p {
 			float: left; /* width: 185px; */ margin: 5px 5px 20px 5px;
-			font-size: 13px; line-height: 14px; color: black; 
+			font-size: 11px; line-height: 13px; color: black; 
 		}
 
 .content {
